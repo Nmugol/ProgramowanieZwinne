@@ -8,7 +8,7 @@ US6,Edycja zadania,Jako użytkownik chcę móc edytować szczegóły zadania,2,M
 US7,Usuwanie zadania,Jako właściciel projektu chcę usuwać zadania aby usuwać niepotrzebne elementy projektu,3,MUST,ToDo,Zadanie zostaje trwale usunięte z projektu
 US8,Usuwanie projektu,Jako właściciel projektu chcę usunąć projekt aby zakończyć jego realizację,3,MUST,ToDo,Projekt znika z listy projektów wszystkich użytkowników
 US9,Powiadomienia,Jako użytkownik chcę otrzymywać powiadomienia o zmianach w projekcie aby być na bieżąco z postępem prac,1,COULD,ToDo,Powiadomienia pojawiają się po zmianach w projekcie
-TECH1,Baza danych,Projekt i implementacja bazy danych aplikacji,3,MUST,ToDo,Baza umożliwia zapis i odczyt użytkowników, projektów i zadań
+TECH1,Baza danych,Projekt i implementacja bazy danych aplikacji,3,MUST,ToDo,Baza umożliwia zapis i odczyt użytkowników lub projektów i zadań
 TECH2,API backend,Implementacja REST API dla użytkowników projektów i zadań,3,MUST,ToDo,Endpointy API umożliwiają operacje CRUD
 TECH3,Komunikacja realtime,Implementacja Socket.IO dla powiadomień,1,COULD,ToDo,Wiadomości pojawiają się w czasie rzeczywistym
 TECH4,UI/UX aplikacji,Zaprojektowanie interfejsu użytkownika aplikacji,2,SHOULD,ToDo,Interfejs jest czytelny

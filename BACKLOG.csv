@@ -1,1 +1,11 @@
 id,tytuł,opis,story_points,priorytet,status,akceptacja
+US1,Rejestracja użytkownika,Jako użytkownik chcę utworzyć konto aby móc korzystać z aplikacji i tworzyć projekty,3,MUST,ToDo,Użytkownik może zarejestrować konto a dane zapisują się w bazie danych
+US2,Logowanie,Jako użytkownik chcę się zalogować aby uzyskać dostęp do moich projektów i zadań,3,MUST,ToDo,Poprawne dane logowania umożliwiają dostęp do aplikacji
+US3,Tworzenie projektu,Jako użytkownik chcę tworzyć nowe projekty aby organizować zadania zespołu,3,MUST,ToDo,Nowy projekt pojawia się na liście projektów użytkownika
+US4,Edycja projektu,Jako właściciel projektu chcę aktualizować jego informacje,2 MUST,ToDo,Zmiany zapisują się poprawnie
+US5,Dodawanie zadań,Jako użytkownik chcę dodawać nowe zadania do projektu,3,MUST,ToDo,Zadanie pojawia się w projekcie
+US6,Edycja zadania,Jako użytkownik chcę móc edytować szczegóły zadania, 2 ,MUST,ToDo,Zmiany w zadaniu zapisują się poprawnie
+US7,Usuwanie zadania,Jako właściciel projektu chcę usuwać zadania aby usuwać niepotrzebne elementy projektu,3,MUST,ToDo,Zadanie zostaje trwale usunięte z projektu
+US8,Usuwanie projektu,Jako właściciel projektu chcę usunąć projekt aby zakończyć jego realizację,3,MUST,ToDo,Projekt znika z listy projektów wszystkich użytkowników
+US9,Powiadomienia,Jako użytkownik chcę otrzymywać powiadomienia o zmianach w projekcie aby być na bieżąco z postępem prac,1,COULD,ToDo,Powiadomienia pojawiają się po zmianach w projekcie
+

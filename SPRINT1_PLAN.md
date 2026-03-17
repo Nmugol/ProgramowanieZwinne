@@ -1,0 +1,70 @@
+# Sprint 1 — Plan (1 tydzień)
+
+## Cel sprintu
+Dostarczyć MVP backendu i przykładowego frontendu aplikacji do zarządzania projektami i zadaniami, które umożliwi użytkownikowi:
+- rejestrację konta
+- logowanie do aplikacji
+- zapis danych użytkownika w bazie danych
+- dostęp do podstawowego API aplikacji
+
+---
+
+## Zakres (wybrane z BACKLOG.csv)
+- **US1** — Rejestracja użytkownika
+- **US2** — Logowanie
+- **US5** — Dodawanie zadań
+- **TECH1** — Baza danych
+- **TECH2** — API backend (użytkownicy/projekty)
+- **TECH3** — API backend (użytkownicy/zadania)
+
+---
+
+## Zadania techniczne
+**US1 — Rejestracja użytkownika**
+- Implementacja mechanizmu rejestracji użytkownika
+- POST /register — rejestracja użytkownika
+- Walidacja danych wejściowych użytkownika
+- Hashowanie hasła użytkownika przed zapisaniem w bazie danych
+
+**US2 — Logowanie**
+- Implementacja mechanizmu logowania użytkownika
+- POST /login — logowanie użytkownika
+
+**US5 — Dodawanie zadań**
+- Implementacja mechanizmu dodawania zadania
+- POST /tasks — tworzenie nowego zadania
+- Zadanie jest widoczne w kontekście projektu po dodaniu
+
+**TECH1 — Baza danych**
+- Projekt i implementacja bazy danych (tabele: users, tasks)
+- Konfiguracja połączenia aplikacji z bazą danych
+
+**TECH2 — API backend (użytkownicy/projekty)**
+- Implementacja modelu użytkownika (np. User)
+- Implementacja podstawowych endpointów API
+
+**TECH3 — API backend (zadania)**
+- Implementacja modelu zadania (np. Task)
+- Implementacja podstawowych endpointów API
+
+**Wspólne / ogólne**
+- Inicjalizacja repozytorium oraz podstawowej struktury projektu backendowego
+- Implementacja modelu użytkownika (np. User)
+- Implementacja modelu zadania (np. Task)
+
+---
+
+## Definition of Done
+- Użytkownik może się zarejestrować w aplikacji
+- Dane użytkownika zapisują się poprawnie w bazie danych
+- Użytkownik może się zalogować przy użyciu poprawnych danych
+- Endpointy API działają poprawnie i zwracają odpowiednie odpowiedzi.
+- Zmiany zostały zatwierdzone przez cały zespół programistyczny
+- Użytkownik może dodać nowe zadanie do bazy danych.
+
+---
+
+## Ryzyka sprintu
+- **Problemy z konfiguracją bazy danych mogą opóźnić implementację** (plan awaryjny: użycie prostszej lokalnej bazy np. SQLite)
+- **Błędy w implementacji logowania i hashowania haseł** (plan awaryjny: użycie sprawdzonej biblioteki do autoryzacji)
+- **Brak czasu na pełne testy API** (plan awaryjny: wykonanie testów manualnych endpointów)

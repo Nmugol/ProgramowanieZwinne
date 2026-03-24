@@ -16,4 +16,4 @@ TECH4,API backend (projekty),Implementacja REST API dla projektów,3,MUST,ToDo,E
 TECH5,Komunikacja realtime,Implementacja Socket.IO dla powiadomień,1,COULD,ToDo,Wiadomości pojawiają się w czasie rzeczywistym
 TECH6,UI/UX aplikacji,Zaprojektowanie interfejsu użytkownika aplikacji,2,SHOULD,ToDo,Interfejs jest czytelny
 TECH7,Testy aplikacji,Przygotowanie testów,2,SHOULD,ToDo,Testy sprawdzają kluczowe funkcje systemu
-TECH8,Autoryzacja,Autoryzacja zalogowanych użytkowników,2,COULD,ToDo,Zalogowany użytkownik otrzymuje token autoryzacji
+TECH8,Autoryzacja (token JWT),Autoryzacja zalogowanych użytkowników,2,COULD,ToDo,Zalogowany użytkownik otrzymuje token autoryzacji

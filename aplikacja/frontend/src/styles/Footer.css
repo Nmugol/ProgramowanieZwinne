@@ -1,0 +1,14 @@
+/* Footer.css */
+
+footer {
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    padding: 15px 30px;
+    justify-content: center; /* lepsze wyśrodkowanie treści */
+    align-items: center;
+    width: 100vw;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center;
+}

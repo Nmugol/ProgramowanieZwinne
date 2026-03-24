@@ -1,0 +1,155 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* Container & background */
+.auth-container {
+    /* Usuń background i height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.5s ease;
+    font-family: inherit; /* dziedziczy z body */
+    padding: 20px 10px; /* dodaj padding, żeby nie przyklejało się do krawędzi */
+}
+
+/* Card */
+.auth-box {
+    background: linear-gradient(135deg, #ffffffcc, #f0f0f0cc);
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(100, 100, 150, 0.2);
+    width: 100%;
+    max-width: 420px;
+    backdrop-filter: blur(10px);
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    color: #333;
+    user-select: none;
+}
+
+.auth-box:hover {
+    border-color: #6c63ff;
+    box-shadow: 0 12px 40px rgba(108, 99, 255, 0.4);
+}
+
+/* Title */
+.auth-box h2 {
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: var(--heading-color);
+}
+
+/* Inputs */
+.auth-box input {
+    width: 100%;
+    padding: 14px 16px;
+    margin: 12px 0;
+    border-radius: 12px;
+    border: 2px solid #aaa;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+    background: #fff;
+    color: #444;
+    font-weight: 600;
+}
+
+.auth-box input:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 8px #6c63ffaa;
+}
+
+/* Button */
+.auth-box button {
+    width: 100%;
+    padding: 14px 0;
+    background: linear-gradient(90deg, #6c63ff 0%, #9e8bff 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    box-shadow: 0 6px 15px #6c63ff88;
+    transition: background 0.4s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.auth-box button:hover {
+    background: linear-gradient(90deg, #594fd1 0%, #7a6fee 100%);
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px #594fd1bb;
+}
+
+/* Switch text */
+.switch-text {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 15px;
+    color: var(--text-color);
+    user-select: none;
+}
+
+.switch-text span {
+    color: var(--switch-link-color);
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 8px;
+    transition: color 0.3s ease;
+}
+
+.switch-text span:hover {
+    color: var(--switch-link-hover-color);
+}
+
+
+/* Message */
+.message {
+    margin-top: 14px;
+    color: #ff6b6b;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* Fade animations */
+.fade-in {
+    animation: fadeIn 0.3s forwards;
+}
+
+.fade-out {
+    animation: fadeOut 0.3s forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0);}
+    to { opacity: 0; transform: translateY(10px);}
+}
+
+/* File input */
+.auth-box input[type="file"] {
+    margin-top: 12px;
+    padding: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Scrollbar (nice touch) */
+.auth-box::-webkit-scrollbar {
+    width: 6px;
+}
+
+.auth-box::-webkit-scrollbar-thumb {
+    background-color: #6c63ffaa;
+    border-radius: 12px;
+}

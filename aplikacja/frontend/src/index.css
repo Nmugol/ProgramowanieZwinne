@@ -1,0 +1,146 @@
+/* Light theme - domyślny */
+:root {
+    --background-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --input-bg: #fff;
+    --input-border: #aaa;
+    --button-bg-start: #6c63ff;
+    --button-bg-end: #9e8bff;
+    --button-hover-start: #594fd1;
+    --button-hover-end: #7a6fee;
+    --message-color: #ff6b6b;
+    --header-bg-color: #4c8bf5;
+    --header-text-color: white;
+    --logout-btn-bg: white;
+    --logout-btn-color: #4c8bf5;
+    --logout-btn-hover-bg: #d7e3fd;
+    --footer-bg-color: #4c8bf5;
+    --footer-text-color: white;
+    --text-color: #222;
+    --switch-link-color: #9e8bff;
+    --switch-link-hover-color: #4c8bf5;
+    --heading-color: #3a1c71;
+}
+
+[data-theme="dark"] {
+    --heading-color: #e0d7ff;
+    --switch-link-color: #bb86fc;
+    --switch-link-hover-color: #d4bfff;
+    --background-gradient: linear-gradient(135deg, #1e1e2f 0%, #28283d 100%);
+    --text-color: #eee;
+    --header-bg-color: #2c3e50;
+    --header-text-color: #eee;
+    --logout-btn-bg: #eee;
+    --logout-btn-color: #2c3e50;
+    --logout-btn-hover-bg: #ccc;
+    --footer-bg-color: #2c3e50;
+    --footer-text-color: #eee;
+    --input-bg: #2a2a3d;
+    --input-border: #555;
+    --button-bg-start: #bb86fc;
+    --button-bg-end: #985eff;
+    --button-hover-start: #9b4dff;
+    --button-hover-end: #7a38f7;
+    --message-color: #ff6b6b;
+}
+
+/* Global body background */
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: var(--background-gradient);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 0.5s ease, color 0.5s ease;
+    overflow-x: hidden; /* usuwa poziomy scroll */
+}
+
+/* Przykład jak używać zmiennych w LoginRegister.css: */
+.auth-container {
+    background: var(--background-gradient);
+}
+
+.auth-box {
+    background: var(--input-bg);
+    color: var(--text-color);
+    border: 2px solid transparent;
+    /* ... reszta z wcześniejszych stylów ... */
+}
+
+.auth-box input {
+    background: var(--input-bg);
+    border: 2px solid var(--input-border);
+    color: var(--text-color);
+}
+
+/* Button background gradient */
+.auth-box button {
+    background: linear-gradient(90deg, var(--button-bg-start) 0%, var(--button-bg-end) 100%);
+}
+
+.auth-box button:hover {
+    background: linear-gradient(90deg, var(--button-hover-start) 0%, var(--button-hover-end) 100%);
+}
+
+.message {
+    color: var(--message-color);
+}
+
+main {
+    min-height: calc(100vh - 120px); /* jeśli header i footer mają razem 120px wysokości */
+    box-sizing: border-box;
+}
+
+/* Loader */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* lub 100% */
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 6px solid #ccc;
+    border-top: 6px solid #6c63ff;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Fade in transition */
+.fade-in-view {
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+button {
+    margin: 5px;
+    padding: 8px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+

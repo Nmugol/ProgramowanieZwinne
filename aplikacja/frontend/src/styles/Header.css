@@ -1,0 +1,191 @@
+/* Header.css */
+
+header {
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw; /* pełna szerokość */
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* Gradient tła (prosty, nie powtarzający się) */
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.8rem;
+
+}
+
+nav button {
+    background-color: var(--logout-btn-bg);
+    color: var(--logout-btn-color);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: var(--logout-btn-hover-bg);
+}
+
+.user-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.avatar.small {
+    width: 30px;
+    height: 30px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.gear-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.2s ease;
+
+}
+.gear-btn:hover {
+    transform: scale(1.2);
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-top: 8px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 10px;
+    min-width: 160px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.user-summary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* styles/Header.css */
+.home-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    color: white;
+}
+
+.home-btn:hover {
+    transform: scale(1.2);
+}
+
+
+/* Dropdown menu styl podobny do .auth-box */
+.header .dropdown-menu {
+    background: linear-gradient(135deg, #ffffffcc, #f0f0f0cc);
+    padding: 20px 16px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(100, 100, 150, 0.2);
+    width: 220px;
+    backdrop-filter: blur(10px);
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    color: #333;
+    user-select: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-top: 8px;
+    z-index: 10;
+}
+
+.header .dropdown-menu:hover {
+    border-color: #6c63ff;
+    box-shadow: 0 12px 40px rgba(108, 99, 255, 0.4);
+}
+
+/* User summary in dropdown */
+.header .user-summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.header .user-summary .avatar.small {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #6c63ff;
+}
+
+/* Buttons in dropdown */
+.header .dropdown-menu button {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 6px 0;
+    background: linear-gradient(90deg, #6c63ff 0%, #9e8bff 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0 6px 15px #6c63ff88;
+    transition: background 0.4s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    user-select: none;
+}
+
+.header .dropdown-menu button:hover {
+    background: linear-gradient(90deg, #594fd1 0%, #7a6fee 100%);
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px #594fd1bb;
+}
+
+/* Separator */
+.header .dropdown-menu hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+

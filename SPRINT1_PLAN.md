@@ -10,13 +10,15 @@ Dostarczyć MVP backendu i przykładowego frontendu aplikacji do zarządzania pr
 ---
 
 ## Zakres (wybrane z BACKLOG.csv)
-- **US1** — Rejestracja użytkownika
+- **US1** — Rejestracja użytkownika 
 - **US2** — Logowanie
 - **US5** — Dodawanie zadań
+- **US10** — Edycja profilu użytkownika 
 - **TECH1** — Baza danych
 - **TECH2** — API backend (użytkownicy)
 - **TECH3** — API backend (zadania)
-
+- **TECH8** — Autoryzacja (token JWT)
+  
 ---
 
 ## Zadania techniczne
@@ -35,6 +37,10 @@ Dostarczyć MVP backendu i przykładowego frontendu aplikacji do zarządzania pr
 - POST /tasks — tworzenie nowego zadania
 - Zadanie jest widoczne w kontekście projektu po dodaniu
 
+**US10** — Edycja profilu użytkownika 
+- Możliwość zmiany danych osobowych użytkownika 
+- Możliwość zmiany hasła użytkownika 
+
 **TECH1 — Baza danych**
 - Projekt i implementacja bazy danych (tabele: users, tasks)
 - Konfiguracja połączenia aplikacji z bazą danych
@@ -47,6 +53,9 @@ Dostarczyć MVP backendu i przykładowego frontendu aplikacji do zarządzania pr
 - Implementacja modelu zadania (np. Task)
 - Implementacja podstawowych endpointów API
 
+**TECH8** — Autoryzacja (token JWT)
+- Uwierzytelnianie zalogowanych użytkowników za pomocą tokenta JWT
+
 ---
 
 ## Definition of Done
@@ -55,7 +64,9 @@ Dostarczyć MVP backendu i przykładowego frontendu aplikacji do zarządzania pr
 - Użytkownik może się zalogować przy użyciu poprawnych danych
 - Endpointy API działają poprawnie i zwracają odpowiednie odpowiedzi.
 - Zmiany zostały zatwierdzone przez cały zespół programistyczny
-- Użytkownik może dodać nowe zadanie do bazy danych.
+- Użytkownik może dodać nowe zadanie do bazy danych
+- Użytkownik może edytować swoje dane osobowe wraz z hasłem
+- Użytkownik jest uwierzytelniony za pomocą tokenta JWT 
 
 ---
 

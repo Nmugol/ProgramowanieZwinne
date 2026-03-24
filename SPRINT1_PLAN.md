@@ -14,8 +14,8 @@ Dostarczyć MVP backendu i przykładowego frontendu aplikacji do zarządzania pr
 - **US2** — Logowanie
 - **US5** — Dodawanie zadań
 - **TECH1** — Baza danych
-- **TECH2** — API użytkownicy
-- **TECH3** — API zadania
+- **TECH2** — API backend (użytkownicy)
+- **TECH3** — API backend (zadania)
 
 ---
 

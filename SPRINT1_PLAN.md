@@ -14,8 +14,8 @@ Dostarczyć MVP backendu i przykładowego frontendu aplikacji do zarządzania pr
 - **US2** — Logowanie
 - **US5** — Dodawanie zadań
 - **TECH1** — Baza danych
-- **TECH2** — API backend (użytkownicy/projekty)
-- **TECH3** — API backend (użytkownicy/zadania)
+- **TECH2** — API użytkownicy
+- **TECH3** — API zadania
 
 ---
 
@@ -39,18 +39,13 @@ Dostarczyć MVP backendu i przykładowego frontendu aplikacji do zarządzania pr
 - Projekt i implementacja bazy danych (tabele: users, tasks)
 - Konfiguracja połączenia aplikacji z bazą danych
 
-**TECH2 — API backend (użytkownicy/projekty)**
+**TECH2 — API użytkownicy**
 - Implementacja modelu użytkownika (np. User)
 - Implementacja podstawowych endpointów API
 
-**TECH3 — API backend (zadania)**
+**TECH3 — API zadania**
 - Implementacja modelu zadania (np. Task)
 - Implementacja podstawowych endpointów API
-
-**Wspólne / ogólne**
-- Inicjalizacja repozytorium oraz podstawowej struktury projektu backendowego
-- Implementacja modelu użytkownika (np. User)
-- Implementacja modelu zadania (np. Task)
 
 ---
 

@@ -16,7 +16,7 @@ US14,Usuwanie komentarzy z zadań,Jako użytkownik chce mieć możliwość usuni
 US15,Usuwanie powiadomień,Jako użytkownik chcę mieć możliwość usunięcia otrzymanych powiadomień z apliakcji,1,COULD,InProgress,Powiadomienia są prawidłowo usuwane z aplikacji
 US16,Powiadomienia e-mail,Jako użytkownik chce mieć mieć możliwość powiadomienia e-mail,3,MUST,InProgress,Użytkownik zostaje powiadomiony wiadomością e-mail o zmianach w apliakcji
 US17,Wypisanie się z projektu,Jako użytkownik chcę mieć możliwość wypisania się z członkostwa w projekcie,3,MUST,InProgress,Użytownik może wypisać się z konkretnego projektu
-US18,Wybranie nowego właściciela projektu, Jako użytkownik chcę mieć możliwość wybrania nowego właścicela projektu,2,SHOULD,InProgress,Użytkownik może wybrać nowego właściciela projektu
+US18,Wybranie nowego właściciela projektu,Jako użytkownik chcę mieć możliwość wybrania nowego właścicela projektu,2,SHOULD,InProgress,Użytkownik może wybrać nowego właściciela projektu
 US19,Wyświetlenie listy projektów,Jako użytkownik chcę mieć możliwośćwyświetlenia listy projektów, do których należe,3,MUST,InProgress,System prawidłowo wyświetla liste projektów do których należy zalogowany użytkownik
 TECH1,Baza danych,Projekt i implementacja bazy danych aplikacji,3,MUST,InProgress,Baza umożliwia zapis i odczyt użytkowników lub projektów i zadań
 TECH2,API backend (użytkownicy),Implementacja REST API dla użytkowników,3,MUST,Done,Endpointy API umożliwiają operacje CRUD

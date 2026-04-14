@@ -12,12 +12,12 @@ US10,Edycja profilu,Jako użytkownik chcę mieć możliwość edycji swoich dany
 US11,Dodawanie załączników do zadań,Jako użytkownik chcę mieć możliwość dodania załączników do zadania,2,SHOULD,InProgress,Załącznik zostaje dołączony do zadania 
 US12,Usuwanie załączników z zadań,Jako użytkownik chcę mieć możliwość usuwania załączników z zadania,2,SHOULD,InProgress,Załącznik zostaje pomyślnie usunięty z zadania
 US13,Dodawania komentarzy do zadań,Jako użytkownik chcę mieć możliwość dodania komentarzy do zadań,2,SHOULD,InProgress,Komentarz pojawia się w oknie zadania i jest widoczny dla wszystkich użytkowników aplikacji 
-US14,Usuwanie komentarzy z zadań, Jako użytkownik chce mieć możliwość usunięcia własnego komentarza znajdującego się pod konkretym zadaniem,2,InProgress,Komentarz zostaje usunięty z zadania
+US14,Usuwanie komentarzy z zadań,Jako użytkownik chce mieć możliwość usunięcia własnego komentarza znajdującego się pod konkretym zadaniem,2,InProgress,Komentarz zostaje usunięty z zadania
 US15,Usuwanie powiadomień,Jako użytkownik chcę mieć możliwość usunięcia otrzymanych powiadomień z apliakcji,1,COULD,InProgress,Powiadomienia są prawidłowo usuwane z aplikacji
-US16,Powiadomienia e-mail,Jako użytkownik chce mieć mieć możliwość powiadomienia e-mail, 3, MUST, InProgress,Użytkownik zostaje powiadomiony wiadomością e-mail o zmianach w apliakcji
+US16,Powiadomienia e-mail,Jako użytkownik chce mieć mieć możliwość powiadomienia e-mail,3,MUST,InProgress,Użytkownik zostaje powiadomiony wiadomością e-mail o zmianach w apliakcji
 US17,Wypisanie się z projektu,Jako użytkownik chcę mieć możliwość wypisania się z członkostwa w projekcie,3,MUST,InProgress,Użytownik może wypisać się z konkretnego projektu
 US18,Wybranie nowego właściciela projektu, Jako użytkownik chcę mieć możliwość wybrania nowego właścicela projektu,2,SHOULD,InProgress,Użytkownik może wybrać nowego właściciela projektu
-US19,Wyświetlenie listy projektów,Jako użytkownik chcę mieć możliwośćwyświetlenia listy projektów, do których należe,3,MUST,InProgress,System prawidłowo wyświetla liste projektów, do których należy zalogowany użytkownik
+US19,Wyświetlenie listy projektów,Jako użytkownik chcę mieć możliwośćwyświetlenia listy projektów, do których należe,3,MUST,InProgress,System prawidłowo wyświetla liste projektów do których należy zalogowany użytkownik
 TECH1,Baza danych,Projekt i implementacja bazy danych aplikacji,3,MUST,InProgress,Baza umożliwia zapis i odczyt użytkowników lub projektów i zadań
 TECH2,API backend (użytkownicy),Implementacja REST API dla użytkowników,3,MUST,Done,Endpointy API umożliwiają operacje CRUD
 TECH3,API backend (zadania),Implementacja REST API dla zadań,3,MUST,InProgress,Endpointy API umożliwiają operacje CRUD
@@ -27,6 +27,6 @@ TECH6,UI/UX aplikacji,Zaprojektowanie interfejsu użytkownika aplikacji,2,SHOULD
 TECH7,Testy aplikacji,Przygotowanie testów,2,SHOULD,ToDo,Testy sprawdzają kluczowe funkcje systemu
 TECH8,Autoryzacja (token JWT),Autoryzacja zalogowanych użytkowników,2,COULD,Done,Zalogowany użytkownik otrzymuje token autoryzacji
 TECH9,Strona startowa,Implementacja strony startowej aplikacji dla niezalogowanego użytkownika,1,COULD,InProgress,Strona startowa prezentowana jest niezalogowanemu użytkownikowi po uruchomieniu aplikacji
-TECH10,Wysłanie wiadomości e-mail,Implementacja obsługi odpowiadającej za wysyłanie wiadomości e-mail,3, MUST,InProgress,Wiadomości wysyłają się w czasie rzeczywistym
+TECH10,Wysłanie wiadomości e-mail,Implementacja obsługi odpowiadającej za wysyłanie wiadomości e-mail,3,MUST,InProgress,Wiadomości wysyłają się w czasie rzeczywistym
 TECH11,API backend (komentarze),Implementacja REST API dla komentarzy w zadaniach,3,MUST,InProgress,Endpointy API umożliwiają dodanie komentarzy w zadaniach
 TECH12,API backend (załączniki),Implementacja REST API do dołączania załączników do zadania,3,MUST,InProgress,Endpointy API umożliwiają obsługe plików w zadaniach

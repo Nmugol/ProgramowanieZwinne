@@ -1,19 +1,32 @@
 id,tytuł,opis,story_points,priorytet,status,akceptacja
-US1,Rejestracja użytkownika,Jako użytkownik chcę utworzyć konto aby móc korzystać z aplikacji i tworzyć projekty,3,MUST,InProgress,Użytkownik może zarejestrować konto a dane zapisują się w bazie danych
-US2,Logowanie,Jako użytkownik chcę się zalogować aby uzyskać dostęp do moich projektów i zadań,3,MUST,InProgress,Poprawne dane logowania umożliwiają dostęp do aplikacji
-US3,Tworzenie projektu,Jako użytkownik chcę tworzyć nowe projekty aby organizować zadania zespołu,3,MUST,ToDo,Nowy projekt pojawia się na liście projektów użytkownika
-US4,Edycja projektu,Jako właściciel projektu chcę aktualizować jego informacje,2,MUST,ToDo,Zmiany zapisują się poprawnie
-US5,Dodawanie zadań,Jako użytkownik chcę dodawać nowe zadania do projektu,3,MUST,InProgress,Zadanie pojawia się w projekcie
-US6,Edycja zadania,Jako użytkownik chcę móc edytować szczegóły zadania,2,MUST,ToDo,Zmiany w zadaniu zapisują się poprawnie
+US1,Rejestracja użytkownika,Jako użytkownik chcę utworzyć konto aby móc korzystać z aplikacji i tworzyć projekty,3,MUST,Done,Użytkownik może zarejestrować konto a dane zapisują się w bazie danych
+US2,Logowanie,Jako użytkownik chcę się zalogować aby uzyskać dostęp do moich projektów i zadań,3,MUST,Done,Poprawne dane logowania umożliwiają dostęp do aplikacji
+US3,Tworzenie projektu,Jako użytkownik chcę tworzyć nowe projekty aby organizować zadania zespołu,3,MUST,InProgress,Nowy projekt pojawia się na liście projektów użytkownika
+US4,Edycja projektu,Jako właściciel projektu chcę aktualizować jego informacje,2,MUST,InProgress,Zmiany zapisują się poprawnie
+US5,Dodawanie zadań,Jako użytkownik chcę dodawać nowe zadania do projektu,3,MUST,Done,Zadanie pojawia się w projekcie
+US6,Edycja zadania,Jako użytkownik chcę móc edytować szczegóły zadania,2,MUST,InProgress,Zmiany w zadaniu zapisują się poprawnie
 US7,Usuwanie zadania,Jako właściciel projektu chcę usuwać zadania aby usuwać niepotrzebne elementy projektu,3,MUST,ToDo,Zadanie zostaje trwale usunięte z projektu
-US8,Usuwanie projektu,Jako właściciel projektu chcę usunąć projekt aby zakończyć jego realizację,3,MUST,ToDo,Projekt znika z listy projektów wszystkich użytkowników
-US9,Powiadomienia,Jako użytkownik chcę otrzymywać powiadomienia o zmianach w projekcie aby być na bieżąco z postępem prac,1,COULD,ToDo,Powiadomienia pojawiają się po zmianach w projekcie
-US10,Edycja profilu,Jako użytkownik chcę mieć możliwość edycji swoich danych osobowych,1,COULD,InProgress,Zmiany zapisują się poprawnie
+US8,Usuwanie projektu,Jako właściciel projektu chcę usunąć projekt aby zakończyć jego realizację,3,MUST,InProgress,Projekt znika z listy projektów wszystkich użytkowników
+US9,Powiadomienia,Jako użytkownik chcę otrzymywać powiadomienia o zmianach w projekcie aby być na bieżąco z postępem prac,1,COULD,Inprogress,Powiadomienia pojawiają się po zmianach w projekcie
+US10,Edycja profilu,Jako użytkownik chcę mieć możliwość edycji swoich danych osobowych,1,COULD,Done,Zmiany zapisują się poprawnie
+US11, Dodawanie załączników do zadań, Jako użytkownik chcę mieć możliwość dodania załączników do zadania, 2, SHOULD, InProgress, Załącznik zostaje dołączony do zadania 
+US12, Usuwanie załączników z zadań, Jako użytkownik chcę mieć możliwość usuwania załączników z zadania, 2, SHOULD, InProgress, Załącznik zostaje pomyślnie usunięty z zadania
+US13, Dodawania komentarzy do zadań, Jako użytkownik chcę mieć możliwość dodania komentarzy do zadań, 2, SHOULD, InProgress, Komentarz pojawia się w oknie zadania i jest widoczny dla wszystkich użytkowników aplikacji 
+US14, Usuwanie komentarzy z zadań, Jako użytkownik chce mieć możliwość usunięcia własnego komentarza znajdującego się pod konkretym zadaniem, 2, InProgress, Komentarz zostaje usunięty z zadania
+US15, Usuwanie powiadomień, Jako użytkownik chcę mieć możliwość usunięcia otrzymanych powiadomień z apliakcji, 1, COULD, InProgress, Powiadomienia są prawidłowo usuwane z aplikacji
+US16, Powiadomienia e-mail, Jako użytkownik chce mieć mieć możliwość powiadomienia e-mail, 3, MUST, InProgress, Użytkownik zostaje powiadomiony wiadomością e-mail o zmianach w apliakcji
+US17, Wypisanie się z projektu, Jako użytkownik chcę mieć możliwość wypisania się z członkostwa w projekcie, 3, MUST, InProgress, Użytownik może wypisać się z konkretnego projektu
+US18, Wybranie nowego właściciela projektu, Jako użytkownik chcę mieć możliwość wybrania nowego właścicela projektu, 2, SHOULD, InProgress, Użytkownik może wybrać nowego właściciela projektu
+US19, Wyświetlenie listy projektów, Jako użytkownik chcę mieć możliwośćwyświetlenia listy projektów, do których należe, 3, MUST, InProgress, System prawidłowo wyświetla liste projektów, do których należy zalogowany użytkownik
 TECH1,Baza danych,Projekt i implementacja bazy danych aplikacji,3,MUST,InProgress,Baza umożliwia zapis i odczyt użytkowników lub projektów i zadań
-TECH2,API backend (użytkownicy),Implementacja REST API dla użytkowników,3,MUST,InProgress,Endpointy API umożliwiają operacje CRUD
+TECH2,API backend (użytkownicy),Implementacja REST API dla użytkowników,3,MUST,Done,Endpointy API umożliwiają operacje CRUD
 TECH3,API backend (zadania),Implementacja REST API dla zadań,3,MUST,InProgress,Endpointy API umożliwiają operacje CRUD
-TECH4,API backend (projekty),Implementacja REST API dla projektów,3,MUST,ToDo,Endpointy API umożliwiają operacje CRUD
-TECH5,Komunikacja realtime,Implementacja Socket.IO dla powiadomień,1,COULD,ToDo,Wiadomości pojawiają się w czasie rzeczywistym
-TECH6,UI/UX aplikacji,Zaprojektowanie interfejsu użytkownika aplikacji,2,SHOULD,ToDo,Interfejs jest czytelny
+TECH4,API backend (projekty),Implementacja REST API dla projektów,3,MUST,InProgress,Endpointy API umożliwiają operacje CRUD
+TECH5,Komunikacja realtime,Implementacja Socket.IO dla powiadomień,1,COULD,InProgress,Wiadomości pojawiają się w czasie rzeczywistym
+TECH6,UI/UX aplikacji,Zaprojektowanie interfejsu użytkownika aplikacji,2,SHOULD,InProgress,Interfejs jest czytelny
 TECH7,Testy aplikacji,Przygotowanie testów,2,SHOULD,ToDo,Testy sprawdzają kluczowe funkcje systemu
-TECH8,Autoryzacja (token JWT),Autoryzacja zalogowanych użytkowników,2,COULD,InProgress,Zalogowany użytkownik otrzymuje token autoryzacji
+TECH8,Autoryzacja (token JWT),Autoryzacja zalogowanych użytkowników,2,COULD,Done,Zalogowany użytkownik otrzymuje token autoryzacji
+TECH9, Strona startowa, Implementacja strony startowej aplikacji dla niezalogowanego użytkownika, 1, COULD, InProgress, Strona startowa prezentowana jest niezalogowanemu użytkownikowi po uruchomieniu aplikacji
+TECH10, Wysłanie wiadomości e-mail, Implementacja obsługi odpowiadającej za wysyłanie wiadomości e-mail, 3, MUST, InProgress, Wiadomości wysyłają się w czasie rzeczywistym
+TECH11,API backend (komentarze), Implementacja REST API dla komentarzy w zadaniach,3,MUST,InProgress,Endpointy API umożliwiają dodanie komentarzy w zadaniach
+TECH12,API backend (załączniki), Implementacja REST API do dołączania załączników do zadania,3,MUST,InProgress,Endpointy API umożliwiają obsługe plików w zadaniach

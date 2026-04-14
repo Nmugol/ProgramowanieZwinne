@@ -12,7 +12,7 @@ US10,Edycja profilu,Jako użytkownik chcę mieć możliwość edycji swoich dany
 US11,Dodawanie załączników do zadań,Jako użytkownik chcę mieć możliwość dodania załączników do zadania,2,SHOULD,InProgress,Załącznik zostaje dołączony do zadania 
 US12,Usuwanie załączników z zadań,Jako użytkownik chcę mieć możliwość usuwania załączników z zadania,2,SHOULD,InProgress,Załącznik zostaje pomyślnie usunięty z zadania
 US13,Dodawania komentarzy do zadań,Jako użytkownik chcę mieć możliwość dodania komentarzy do zadań,2,SHOULD,InProgress,Komentarz pojawia się w oknie zadania i jest widoczny dla wszystkich użytkowników aplikacji 
-US14,Usuwanie komentarzy z zadań,Jako użytkownik chce mieć możliwość usunięcia własnego komentarza znajdującego się pod konkretym zadaniem,2,InProgress,Komentarz zostaje usunięty z zadania
+US14,Usuwanie komentarzy z zadań,Jako użytkownik chce mieć możliwość usunięcia własnego komentarza znajdującego się pod konkretym zadaniem,2,SHOULD,InProgress,Komentarz zostaje usunięty z zadania
 US15,Usuwanie powiadomień,Jako użytkownik chcę mieć możliwość usunięcia otrzymanych powiadomień z apliakcji,1,COULD,InProgress,Powiadomienia są prawidłowo usuwane z aplikacji
 US16,Powiadomienia e-mail,Jako użytkownik chce mieć mieć możliwość powiadomienia e-mail,3,MUST,InProgress,Użytkownik zostaje powiadomiony wiadomością e-mail o zmianach w apliakcji
 US17,Wypisanie się z projektu,Jako użytkownik chcę mieć możliwość wypisania się z członkostwa w projekcie,3,MUST,InProgress,Użytownik może wypisać się z konkretnego projektu
